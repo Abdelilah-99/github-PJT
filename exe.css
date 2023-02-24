@@ -1,0 +1,64 @@
+
+.back{
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-family: zeyada;
+    transition: opacity 1s;
+}
+.back:hover{
+opacity: 0.8;
+}
+            .back:active{
+    opacity: 0.4;
+}
+.nike{
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+}
+.stock{
+    color: rgb(79, 222, 79);
+    font-size: 20px;
+}
+.free{
+    font-size: 30px;
+}
+.add{
+    border: none;
+    background-color: yellow;
+    width: 150px;
+    height: 45px;
+    font-size: 20px;
+    border-radius: 23px;
+    cursor: pointer;
+    margin: 15px;
+    transition: background-color  1s, color 1s ;
+
+}
+.add:hover{
+    background-color: white;
+    color: red;
+}
+
+.buy{
+    border: none;
+    background-color: rgb(194, 136, 0);
+    width: 150px;
+    height: 45px;
+
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 23px;
+    transition: box-shadow 1s;
+    transition: background-color 1s, color 1s;
+
+}
+.buy:hover{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+    background-color: white ;
+    color: blue;
+}
